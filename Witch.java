@@ -87,5 +87,6 @@ public class Witch extends Sprite {
         touchCat();
         
         move();
+        
     }
 }

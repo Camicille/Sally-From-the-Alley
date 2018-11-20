@@ -1,7 +1,7 @@
 #BlueJ class context
 comment0.target=Howl
-comment0.text=\r\n\ Howl\ projectile\ that\ will\ grow\ in\ size\r\n\ created\ upon\ howl\ attack\ will\ move\ in\ direction\ and\ grow\ in\ size\ over\ few\ act\ cycles\r\n\ @author\ (Philip\ Jepkes)\ \r\n\ @version\ (v0)\r\n
+comment0.text=\n\ Howl\ projectile\ that\ will\ grow\ in\ size\n\ created\ upon\ howl\ attack\ will\ move\ in\ direction\ and\ grow\ in\ size\ over\ few\ act\ cycles\n\ @author\ (Philip\ Jepkes)\ \n\ @version\ (v0)\n
 comment1.params=
 comment1.target=void\ act()
-comment1.text=\r\n\ Act\ -\ do\ whatever\ the\ Howl\ wants\ to\ do.\ This\ method\ is\ called\ whenever\r\n\ the\ 'Act'\ or\ 'Run'\ button\ gets\ pressed\ in\ the\ environment.\r\n
+comment1.text=\n\ Act\ -\ do\ whatever\ the\ Howl\ wants\ to\ do.\ This\ method\ is\ called\ whenever\n\ the\ 'Act'\ or\ 'Run'\ button\ gets\ pressed\ in\ the\ environment.\n
 numComments=2

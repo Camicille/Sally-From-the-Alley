@@ -1,7 +1,7 @@
 #BlueJ class context
 comment0.target=EasterEgg
-comment0.text=\r\n\ An\ easter\ egg\ for\ the\ player\ to\ find\r\n\ \r\n\ @author\ Chandler\ Clarke\r\n\ @version\ Alpha\ 1.0\r\n
+comment0.text=\n\ An\ easter\ egg\ for\ the\ player\ to\ find\n\ \n\ @author\ Chandler\ Clarke\n\ @version\ Alpha\ 1.0\n
 comment1.params=
 comment1.target=void\ act()
-comment1.text=\r\n\ Act\ -\ do\ whatever\ the\ EasterEgg\ wants\ to\ do.\ This\ method\ is\ called\ whenever\r\n\ the\ 'Act'\ or\ 'Run'\ button\ gets\ pressed\ in\ the\ environment.\r\n
+comment1.text=\n\ Act\ -\ do\ whatever\ the\ EasterEgg\ wants\ to\ do.\ This\ method\ is\ called\ whenever\n\ the\ 'Act'\ or\ 'Run'\ button\ gets\ pressed\ in\ the\ environment.\n
 numComments=2

@@ -1,7 +1,7 @@
 #BlueJ class context
 comment0.target=Enemy
-comment0.text=\r\n\ SuperClass\ of\ Badguys\r\n\ To-do\ inheritance\ certralized\ methods\ utilized\ by\ all\ subclasses\r\n\ @author\ (Philip\ Jepkes)\ \r\n\ @version\ (V1.0)\r\n
+comment0.text=\n\ SuperClass\ of\ Badguys\n\ To-do\ inheritance\ certralized\ methods\ utilized\ by\ all\ subclasses\n\ @author\ (Philip\ Jepkes)\ \n\ @version\ (V1.0)\n
 comment1.params=
 comment1.target=void\ act()
-comment1.text=\r\n\ Act\ -\ do\ whatever\ the\ Enemy\ wants\ to\ do.\ This\ method\ is\ called\ whenever\r\n\ the\ 'Act'\ or\ 'Run'\ button\ gets\ pressed\ in\ the\ environment.\r\n
+comment1.text=\n\ Act\ -\ do\ whatever\ the\ Enemy\ wants\ to\ do.\ This\ method\ is\ called\ whenever\n\ the\ 'Act'\ or\ 'Run'\ button\ gets\ pressed\ in\ the\ environment.\n
 numComments=2

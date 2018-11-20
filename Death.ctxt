@@ -1,7 +1,7 @@
 #BlueJ class context
 comment0.target=Death
-comment0.text=\r\n\ Death\:\ An\ removal\ animation\ that\ will\ exist\ when\ enemies\ are\ removed\r\n\ \r\n\ @author\ (Philip\ Jepkes)\ \r\n\ @version\ (V0)\r\n
+comment0.text=\n\ Death\:\ An\ removal\ animation\ that\ will\ exist\ when\ enemies\ are\ removed\n\ \n\ @author\ (Philip\ Jepkes)\ \n\ @version\ (V0)\n
 comment1.params=
 comment1.target=void\ act()
-comment1.text=\r\n\ Act\ -\ do\ whatever\ the\ Death\ wants\ to\ do.\ This\ method\ is\ called\ whenever\r\n\ the\ 'Act'\ or\ 'Run'\ button\ gets\ pressed\ in\ the\ environment.\r\n
+comment1.text=\n\ Act\ -\ do\ whatever\ the\ Death\ wants\ to\ do.\ This\ method\ is\ called\ whenever\n\ the\ 'Act'\ or\ 'Run'\ button\ gets\ pressed\ in\ the\ environment.\n
 numComments=2
