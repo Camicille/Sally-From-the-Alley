@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.target=AbsQuo
+comment1.params=numer
+comment1.target=AbsQuo(int)
+comment2.params=numer\ denom
+comment2.target=AbsQuo(int,\ int)
+comment3.params=
+comment3.target=int\ poll()
+numComments=4

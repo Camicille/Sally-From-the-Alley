@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.target=Gem
+comment0.text=\r\n\ class\ Gem\:\ Adds\ to\ Score\ on\ Touch\r\n\ \r\n\ @author\ Tyler\ Bakeman\r\n\ @version\ 1.01\ 11/20/18\r\n
+comment1.params=
+comment1.target=Gem()
+comment2.params=
+comment2.target=void\ act()
+comment3.params=
+comment3.target=void\ Physics()
+comment4.params=
+comment4.target=void\ Anime()
+comment5.params=
+comment5.target=void\ Float()
+numComments=6
