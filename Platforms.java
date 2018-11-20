@@ -3,8 +3,8 @@ import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
 /**
  * Write a description of class Platform here.
  * 
- * @author (your name) 
- * @version (a version number or a date)
+ * @author Camille Otillio with Code from Ed Parrish
+ * @version 1
  */
 public class Platforms extends Sprite
 {
@@ -14,6 +14,7 @@ public class Platforms extends Sprite
     public void act() 
     {
         checkVertical();
+        moveToContactVertical();
     } 
     public void checkVertical()
     {
@@ -29,16 +30,16 @@ public class Platforms extends Sprite
     }
     public void moveToContactVertical(Actor target)
     {   
-        int h2 = (target.getImage().getHeight() + target.getImage().getHeight()) / 2;
-        int newY = 0;
-            if (target.getY() > getY()) // test up or down
-            {
-                newY = target.getY() - h2; // up
-        }
-        else
-        {
-            newY = target.getY() + h2; // down
-        }
-        setLocation(getX(), newY);
+    int h2 = (target.getImage().getHeight() + target.getImage().getHeight()) / 2;
+    int newY = 0;
+    if (target.getY() > getY()) // test up or down
+    {
+        newY = target.getY() - h2; // up
+    }
+    else
+    {
+        newY = target.getY() + h2; // down
+    }
+    setLocation(getX(), newY);
     }
 }

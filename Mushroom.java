@@ -3,8 +3,8 @@ import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
 /**
  * Write a description of class Mushroom here.
  * 
- * @author (your name) 
- * @version (a version number or a date)
+ * @author Camille Otillio
+ * @version 1
  */
 public class Mushroom extends Platforms
 {
