@@ -1,12 +1,12 @@
 PROJECT TITLE:  Sally from the Alley (Working title)
 PURPOSE OF PROJECT: Totally awesome platformer
-VERSION or DATE: Alpha 1.0 11/19/2018
+VERSION or DATE: Alpha 1.0 11/20/2018
 HOW TO START THIS PROJECT: Compile and run.
 AUTHORS: CCMTP
 USER INSTRUCTIONS:
-
+Place any character's in the world, the main character can move. Use
+"a" and "d" to move left and right
 ==============================================================
-
 Subsystem Classes
 -----------------
 World and GameMaster mechanics:  Chandler Clarke
@@ -42,4 +42,3 @@ Main character's and superclasses for all game characters: Marlene Inoue
    -Sprite: superclasses of game character's that "walk"
    -Sally: user-controlled character
    -Sebastian: the NPC that must be rescued
-
