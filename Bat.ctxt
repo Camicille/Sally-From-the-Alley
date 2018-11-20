@@ -1,0 +1,17 @@
+#BlueJ class context
+comment0.target=Bat
+comment0.text=\r\n\ Bat\:\ A\ bat\ that\ flys\ and\ attacks.\r\n\ Note\ to\ self\ To-do\ get\ direction\ of\ facing\ most\ likely\ in\ world\r\n\ and\ overload\ contructor\ and\ set\ more\ booleans\r\n\ call\ to\ death\ animation\r\n\ @author\ (Philip\ Jepkes)\ \r\n\ @version\ (V1.0)\r\n
+comment1.params=
+comment1.target=Bat()
+comment2.params=
+comment2.target=void\ act()
+comment2.text=\r\n\ Act\ -\ do\ whatever\ the\ Bat\ wants\ to\ do.\ This\ method\ is\ called\ whenever\r\n\ the\ 'Act'\ or\ 'Run'\ button\ gets\ pressed\ in\ the\ environment.\r\n
+comment3.params=
+comment3.target=void\ movement()
+comment4.params=
+comment4.target=double\ getCount()
+comment5.params=
+comment5.target=void\ alterCount()
+comment6.params=
+comment6.target=void\ removeThis()
+numComments=7

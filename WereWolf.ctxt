@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.target=WereWolf
+comment0.text=\r\n\ WereWolf\:A\ wolf\ that\ wil\ walk\ back\ and\ forth\ or\ howl\r\n\ To-do\ multiple\ constructors\ and\ attacks\r\n\ @author\ (Philip\ Jepkes)\ \r\n\ @version\ (V1.0)\r\n
+comment1.params=
+comment1.target=void\ act()
+comment1.text=\r\n\ Act\ -\ do\ whatever\ the\ WereWolf\ wants\ to\ do.\ This\ method\ is\ called\ whenever\r\n\ the\ 'Act'\ or\ 'Run'\ button\ gets\ pressed\ in\ the\ environment.\r\n
+comment2.params=
+comment2.target=void\ turn()
+comment2.text=\r\n\ this\ will\ be\ altered\ and\ turn\ postion\ will\ change\ \r\n
+comment3.params=
+comment3.target=void\ attack()
+numComments=4

@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=MainMenu
+comment0.text=\r\n\ The\ game's\ main\ menu\r\n\ \r\n\ @author\ Chandler\ Clarke\r\n\ @version\ Alpha\ 1.0\r\n
+comment1.params=
+comment1.target=MainMenu()
+comment1.text=\r\n\ Constructor\ for\ objects\ of\ class\ MainMenu.\r\n\ \r\n
+numComments=2
