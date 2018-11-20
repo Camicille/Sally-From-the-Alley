@@ -1,7 +1,7 @@
 #BlueJ class context
 comment0.target=GameWorld
-comment0.text=\n\ The\ main\ game\ world.\n\ \n\ @author\ Chandler\ Clarke\n\ @version\ Alpha\ 1.0\n
+comment0.text=\r\n\ The\ main\ game\ world.\r\n\ \r\n\ @author\ Chandler\ Clarke\r\n\ @version\ Alpha\ 1.0\r\n
 comment1.params=
 comment1.target=GameWorld()
-comment1.text=\n\ Constructor\ for\ objects\ of\ class\ GameWorld.\n
+comment1.text=\r\n\ Constructor\ for\ objects\ of\ class\ GameWorld.\r\n
 numComments=2

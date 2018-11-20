@@ -1,9 +1,9 @@
 #BlueJ class context
 comment0.target=Spider
-comment0.text=\n\ Spider\:\ That\ will\ drop\ and\ wiggle\ \n\ To\ do\ fall\ from\ branch\ quickly\ then\ ascend\ slowly\ creating\ a\ string\n\ @author\ (Philip\ Jepkes)\ \n\ @version\ (V0)\n
+comment0.text=\r\n\ Spider\:\ That\ will\ drop\ and\ wiggle\ \r\n\ To\ do\ fall\ from\ branch\ quickly\ then\ ascend\ slowly\ creating\ a\ string\r\n\ @author\ (Philip\ Jepkes)\ \r\n\ @version\ (V0)\r\n
 comment1.params=
 comment1.target=void\ act()
-comment1.text=\n\ Act\ -\ do\ whatever\ the\ Spider\ wants\ to\ do.\ This\ method\ is\ called\ whenever\n\ the\ 'Act'\ or\ 'Run'\ button\ gets\ pressed\ in\ the\ environment.\n
+comment1.text=\r\n\ Act\ -\ do\ whatever\ the\ Spider\ wants\ to\ do.\ This\ method\ is\ called\ whenever\r\n\ the\ 'Act'\ or\ 'Run'\ button\ gets\ pressed\ in\ the\ environment.\r\n
 comment2.params=
 comment2.target=void\ movement()
 numComments=3

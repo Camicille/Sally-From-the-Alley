@@ -1,7 +1,7 @@
 #BlueJ class context
 comment0.target=GameMaster
-comment0.text=\n\ A\ superclass\ that\ holds\ all\ non\ interactive\ game\ objects.\n\ \n\ @author\ Chandler\ Clarke\n\ @version\ Alpha\ 1.0\n
+comment0.text=\r\n\ A\ superclass\ that\ holds\ all\ non\ interactive\ game\ objects.\r\n\ \r\n\ @author\ Chandler\ Clarke\r\n\ @version\ Alpha\ 1.0\r\n
 comment1.params=
 comment1.target=void\ act()
-comment1.text=\n\ Act\ -\ do\ whatever\ the\ GameMaster\ wants\ to\ do.\ This\ method\ is\ called\ whenever\n\ the\ 'Act'\ or\ 'Run'\ button\ gets\ pressed\ in\ the\ environment.\n
+comment1.text=\r\n\ Act\ -\ do\ whatever\ the\ GameMaster\ wants\ to\ do.\ This\ method\ is\ called\ whenever\r\n\ the\ 'Act'\ or\ 'Run'\ button\ gets\ pressed\ in\ the\ environment.\r\n
 numComments=2

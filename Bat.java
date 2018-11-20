@@ -19,7 +19,6 @@ public class Bat extends Enemy
     {
         alterCount();
         movement();
-        removeThis();
     }    
     private void movement(){
      double amp = 3.0;
