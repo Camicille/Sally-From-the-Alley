@@ -14,7 +14,7 @@ public class Platforms extends Sprite
     public void act() 
     {
         checkVertical();
-        moveToContactVertical();
+        //moveToContactVertical();
     } 
     public void checkVertical()
     {

@@ -17,7 +17,7 @@ World and GameMaster mechanics:  Chandler Clarke
     -HealthCounter, PotionCounter, ScoreCounter:  Objects that display health, potions, and score.
 -Pause Menu:  A pause menu. (May or may not implement).
 
-Platforms: Camille Otillio
+Platforms: Camille Otillio 
 -Platform: A super class that informs how the platforms will behave and interact
     -Mushrooms: A type of platform that will change how Sally moves
     -Branches: Another type of platform that Sally can land on and use to move around
@@ -26,7 +26,7 @@ Platforms: Camille Otillio
 Enemies: Philip Jepkes
 -Enemy:SuperClass of Badguys
    -WereWolf:A wolf that wil walk back and forth
-      -Howl: A projectile that will exsist
+      -Howl: A projectile that will exist
    -Bat: A bat that flys and attacks
    -Boss:A boss that moves in a set pattern
    -Spider: A spider that will drop and wiggle
