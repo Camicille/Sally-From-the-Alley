@@ -12,10 +12,12 @@ Subsystem Classes
 World and GameMaster mechanics:  Chandler Clarke
 -GameWorld:  The game world.
 -MainMenu:  The main menu.
+-WorldLibrary:  A class that stores and gets world arrays.
 -GameMaster:  A superclass that holds all non interactive game objects.
     -EasterEgg:  An easter egg.
     -HealthCounter, PotionCounter, ScoreCounter:  Objects that display health, potions, and score.
 -Pause Menu:  A pause menu. (May or may not implement).
+-World Portal:  A class that allows the player to change worlds.
 
 Platforms: Camille Otillio
 -Platform: A super class that informs how the platforms will behave and interact

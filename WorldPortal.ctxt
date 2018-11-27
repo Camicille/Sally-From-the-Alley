@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.target=WorldPortal
+comment0.text=\r\n\ A\ portal\ that\ changes\ the\ current\ world\ on\ intersect\ with\ player\ class.\r\n\ \r\n\ @author\ Chandler\ Clarke\ (original\ by\ Ed\ Parrish)\r\n\ @version\ 1.01\ 11/27/18\r\n
+comment1.params=map
+comment1.target=WorldPortal(java.lang.String)
+comment2.params=
+comment2.target=void\ act()
+comment2.text=\r\n\ Act\ -\ do\ whatever\ the\ WorldPortal\ wants\ to\ do.\ This\ method\ is\ called\ whenever\r\n\ the\ 'Act'\ or\ 'Run'\ button\ gets\ pressed\ in\ the\ environment.\r\n
+numComments=3

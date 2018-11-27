@@ -1,7 +1,23 @@
 #BlueJ class context
 comment0.target=GameWorld
-comment0.text=\r\n\ The\ main\ game\ world.\r\n\ \r\n\ @author\ Chandler\ Clarke\r\n\ @version\ Alpha\ 1.0\r\n
+comment0.text=\r\n\ The\ main\ game\ world.\r\n\ \r\n\ @author\ Chandler\ Clarke\r\n\ \ makeMapRow,createPlatforms,\ readMap,\ and\ scrollHorizontal\ original\ versions\ by\ Ed\ Parrish\r\n\ @version\ Alpha\ 1.2\r\n
 comment1.params=
 comment1.target=GameWorld()
 comment1.text=\r\n\ Constructor\ for\ objects\ of\ class\ GameWorld.\r\n
-numComments=2
+comment2.params=fileName
+comment2.target=void\ readMap(java.lang.String)
+comment3.params=map
+comment3.target=void\ createPlatforms(java.lang.String[])
+comment3.text=\r\n\ Create\ and\ arrange\ platforms\ in\ the\ world.\r\n
+comment4.params=y\ map
+comment4.target=void\ makeMapRow(int,\ java.lang.String[])
+comment4.text=\r\n\ Add\ a\ row\ of\ tiles\ to\ the\ world.\r\n\r\n\ @param\ y\ The\ row\ number\ in\ the\ map\ grid.\r\n
+comment5.params=points
+comment5.target=void\ changeScore(int)
+comment5.text=\r\n\ Used\ to\ add\ or\ subtract\ points\r\n
+comment6.params=
+comment6.target=int\ getScore()
+comment6.text=\r\n\ Returns\ the\ current\ number\ of\ points\r\n
+comment7.params=dx
+comment7.target=void\ scrollHorizontal(double)
+numComments=8

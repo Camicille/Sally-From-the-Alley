@@ -1,0 +1,19 @@
+BBBBBBBBBBBB   BBBBBBB    BBBBBBBBBBBBBB       BB
+BBB                              F BBBBB     BBBB
+BB                                 B      B    BB
+BB           B                BBBBBB      B    BB
+BB    BBBBBBBBBBBBBBBBBBBBBB  BBBB    BBBBB    BB
+BB  BBBBBBBBBB         BBBBB  BBBB    BBBBBBB  BB
+BB                        BB        BBBBB      BB
+BBB                       BB        BBBBB     BBB
+BBBBBBBBBBBBBBBBBB BBBBB  BBBBBBBBBBBBBBB     BBB
+BBBBBB           F         B   F   BBBBBB     BBB
+BBBBBB                   G B                BBBBB
+BBBBBB    BBBBBBBBBBBBBBBBBB                BBBBB
+BB      BBBB                  BBBBBBBBBBBBBBBBBBB
+BB      BB                    BB        BBBBBBBBB
+B     BBB     BBBBBBBB BBBBBBBBB        BBBBBBBBB
+B     BBB     BBBBBBBB BBBBBBBBB   BBB  BBBBBBBBB
+   BB     BB                       BBB
+   BB     BB          G            BBB      1
+BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB
