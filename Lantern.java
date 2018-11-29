@@ -14,7 +14,7 @@ public class Lantern extends Objex{
     //object dynamix
     private int TIME = 0;
     private double gravity = 0;
-    private static final int ADF = 4; //anime delay factor
+    private static final int ADF = 16; //anime delay factor
     //
     private boolean setup = true;
     Light light = new Light(100);
@@ -35,15 +35,14 @@ public class Lantern extends Objex{
     
     
     private void Physics(){
-        /** GRAVITY DISABLED
-        int dy = 0;
-        Platform floor = (Platform)getOneObjectAtOffset(0,getImage().getHeight() + floatHeight,Platform.class);
-        if(floor == null)
-            gravity++;
-        else
-            gravity = 0;
-        dy = (int)Math.pow(gravity,2);
-        setLocation(getX(),getY() + dy);**/
+        if(isTouching(Witch.class)){
+            World world = getWorld();
+            int x = Greenfoot.getRandomNumber(1);
+            if(x == 0) world.addObject(new Gem(),getX(),getY());
+            else world.addObject(new Potion(),getX(),getY());
+            world.removeObject(light);
+            world.removeObject(this);
+        }
     }
     
     
