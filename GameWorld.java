@@ -17,11 +17,14 @@ public class GameWorld extends World{
     private String[] map;
     //Stat Caps
     private static final int MAX_HEALTH = 10;
+    private static final int MAX_HEALTH_POTIONS = 3;
     //Stats variables
     private int score;
     private int health;
-    //Static Actors
+    private int healthPotionQuantity;
+    // Actors
     public Witch player = new Witch();
+    public ScoreCounter scoreCounter = new ScoreCounter();
     //Tile Variables (by Ed Parrish)
     private static final int TILE_WIDTH = 32;
     private static final int TILE_HEIGHT = 32;
@@ -30,6 +33,9 @@ public class GameWorld extends World{
     //Health Arrays
     private HealthCounter[] healthCounters;
     private int[] healthX;
+    //Health potion Arrays
+    private PotionCounter[] healthPotionArray;
+    private int[] healthPotionX;
     /**
      * Constructor for objects of class GameWorld.
      */
@@ -39,11 +45,14 @@ public class GameWorld extends World{
         topY = TILE_HEIGHT - getHeight() % TILE_HEIGHT;
         readMap("maps/map1.txt"); //Sets starting map
         initializeHealthArray();
+        initializeHealthPotionArray();
         health = 10;  //Setting starting health
     }
 
     public void act(){
         updateHealthImage();
+        updatePotionImage();
+        updateScoreCounter();
     }
 
     public void readMap(String fileName)
@@ -120,6 +129,10 @@ public class GameWorld extends World{
         return score;
     }
 
+    public void updateScoreCounter(){
+        addObject(scoreCounter, 0, 0);
+    }
+
     /**
      * Used to add or subtract health points
      */    
@@ -129,11 +142,25 @@ public class GameWorld extends World{
             health = MAX_HEALTH;
     }
 
+    public void changeHealthPotionAmount(int quantityChange){
+        healthPotionQuantity = healthPotionQuantity + quantityChange;
+        if (healthPotionQuantity>= MAX_HEALTH_POTIONS)
+            healthPotionQuantity = MAX_HEALTH_POTIONS;
+    }
+
     /**
      * Returns the current number of health points
      */
     public int getHealth(){
         return health;
+    }
+
+    public int getHPotionAmount(){
+        return healthPotionQuantity;
+    }
+
+    public int getPlayerX(){
+        return player.getX();
     }
 
     private void initializeHealthArray(){
@@ -146,15 +173,28 @@ public class GameWorld extends World{
     }
 
     private void updateHealthImage(){
-        resetHealthContainers();
+        List<HealthCounter> healthContainers = getObjects(HealthCounter.class);
+        removeObjects(healthContainers);
         for (int y = 0; y < health; y++){
             addObject(healthCounters[y], player.getX() + healthX[y] + 200, 20);
         }
     }
 
-    private void resetHealthContainers(){
-        List<HealthCounter> healthContainers = getObjects(HealthCounter.class);
-        removeObjects(healthContainers);
+    private void initializeHealthPotionArray(){
+        healthPotionArray = new PotionCounter[2];
+        healthPotionX = new int[2];
+        for (int i = 0; i< 2; i++){
+            healthPotionArray[i] = new PotionCounter(1);
+            healthX[i] = i * 17;
+        }
+    }
+
+    private void updatePotionImage(){
+        List<PotionCounter> potionContainers = getObjects(PotionCounter.class);
+        removeObjects(potionContainers);
+        for (int y = 0; y < healthPotionQuantity; y++){
+            addObject(healthPotionArray[y], player.getX() + healthPotionX[y], 20);
+        }
     }
 
     public void scrollHorizontal(double dx)
@@ -167,27 +207,18 @@ public class GameWorld extends World{
                 double moveX = p.getExactX() - dx;
                 p.setLocation(moveX, p.getY());
             }
+            // else if (a instanceof Enemy){
+            // Enemy c = (Enemy) a;
+
+            // // Allow smooth moving
+            // double moveX = c.getExactX() - dx;
+            // c.setLocation(c.getExactX() - dx, c.getExactY());
+            // }
             else {
                 int moveX = (int) Math.round(a.getX() - dx);
                 a.setLocation(moveX, a.getY());
-            } 
-            //else if (a instanceof Branches)
-            // {
-                // Branches c = (Branches) a;
-                //
-                // Allow smooth moving
-                // double moveX = c.getExactX() - dx;
-                // c.setLocation(c.getExactX() - dx, c.getExactY());
-                // // Set endpoints
-                // // int leftX = (int)Math.round(c.getLeftX() - dx);
-                // //  int rightX = (int)Math.round(c.getRightX() - dx);
-                // //c.setRangeX(leftX, rightX);
-            }
-            //else {
-           //     int moveX = (int) Math.round(a.getX() - dx);
-           //     a.setLocation(moveX, a.getY());
-           // }
-
+            }   
         }
     }
+}
 

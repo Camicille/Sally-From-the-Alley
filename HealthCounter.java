@@ -53,11 +53,15 @@ public class HealthCounter extends GameMaster
     }
 
     private void easterEgg(){
-        if (isTouching(Witch.class) == true){
+        if (isTouching(Fireball.class) == true){
             while (timer < 100){
                 GameWorld world = (GameWorld) getWorld();
                 world.addObject(easterEgg, world.getWidth()/2, world.getHeight()/2);
                 timer++;
+            }
+            if (timer > 100){
+                GameWorld world = (GameWorld) getWorld();
+                world.removeObject(this);
             }
         }
         else if (easterEgg != null){

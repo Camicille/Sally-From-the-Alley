@@ -8,12 +8,35 @@ import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
  */
 public class PotionCounter extends GameMaster
 {
+    private GreenfootImage img1, img2;
+    private int i;
+    public PotionCounter(int potionType){
+        if (potionType == 1){
+            img1 = new GreenfootImage("Potion.png");
+            img2 = new GreenfootImage("Potion2.png");
+        } 
+        else 
+            System.out.println("Invalid potion type");
+    }
+
     /**
      * Act - do whatever the PotionCounter wants to do. This method is called whenever
      * the 'Act' or 'Run' button gets pressed in the environment.
      */
     public void act() 
     {
-        // Add your action code here.
-    }    
+        drawImages();
+    }
+
+    public void drawImages(){
+        if (i <= 60){
+            setImage(img1);
+        }
+        if (i > 60){
+            setImage(img2);
+        }
+        if (i > 120)
+            i = 0;
+        i++;
+    }
 }

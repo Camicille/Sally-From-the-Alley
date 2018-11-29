@@ -25,6 +25,6 @@ public class ScoreCounter extends GameMaster
     }
     private void showScore(){
         GameWorld world = (GameWorld) getWorld();
-        world.showText("Score" + score, world.player.getX()- 200, 20);
+        world.showText("Score: " + score, world.getPlayerX()- 250, 20);
     }
 }
