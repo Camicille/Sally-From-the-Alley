@@ -1,19 +1,18 @@
-BBBBBBBBBBBB                       BBBBBBBBBBBBB
-BBBBBBBBBBBB          2          F BBBBBBBBBBBBB
-BBBBBBBBBBBB                       BBBBBBBBBBBBB
-BBBBBBBBBBBB    LMMMMR    LMR      BBBBBBBBBBBBB
-BBBBBBBBBBBB       P       P      LBBBBBBBBBBBBB
-BBBBBBBBBBBB       P       P       BBBBBBBBBBBBB
-BBBBBBBBBBBB       P     LMMMR     BBBBBBBBBBBBB
-BBBBBBBBBBBBMMR    P       P       BBBBBBBBBBBBB
-BBBBBBBBBBBB       PMR     P     LMBBBBBBBBBBBBB
-BBBBBBBBBBBB     F P       P     F BBBBBBBBBBBBB
-BBBBBBBBBBBB       P     G P       BBBBBBBBBBBBB
-BBBBBBBBBBBB     LMMMMMMMMMMMR     BBBBBBBBBBBBB
-BBBBBBBBBBBB           P           BBBBBBBBBBBBB
-BBBBBBBBBBBB           P           BBBBBBBBBBBBB
-BBBBBBBBBBBBMMMR       P        LMMBBBBBBBBBBBBB
-BBBBBBBBBBBB           P           BBBBBBBBBBBBB
-BBBBBBBBBBBB           P
-                                                
-MMMMMMMMMMMMMMMMMMMMMMMMMMR   LMMMMMMMMMMMMMMMMM
+ MMMMMMM            MMMMM
+ MMMMMMM            MMMMM
+ M                      M
+ M                      M
+ M                      M
+ M                      M
+ M                      M
+ M                      M
+ M                      M
+ M                      M
+ M                      M
+ M                      M
+ M                      M
+ M                      M
+ M                      M
+ M                      M
+ M                      M
+ MMMMMMMMMMMMMMMMMMMMMMMM

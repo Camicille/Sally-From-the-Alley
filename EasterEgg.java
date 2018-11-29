@@ -14,6 +14,6 @@ public class EasterEgg extends GameMaster
      */
     public void act() 
     {
-        // Add your action code here.
+        Greenfoot.playSound("easteregg.wav");
     }    
 }
