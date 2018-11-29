@@ -1,4 +1,10 @@
 import greenfoot.*;
+/**
+ * class Light: for LIT objects
+ * 
+ * @author Tyler Bakeman
+ * @version 1.02 11/28/18
+ **/
 public class Light extends Objex{
     public Light(int size){
         GreenfootImage img = new GreenfootImage(size,size);

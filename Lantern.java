@@ -3,7 +3,7 @@ import greenfoot.*;
  * class Lantern: LIT object, random chance to do something
  * 
  * @author Tyler Bakeman
- * @version 1.01 11/20/18
+ * @version 1.02 11/28/18
  **/
 public class Lantern extends Objex{
     //object personal
@@ -17,7 +17,7 @@ public class Lantern extends Objex{
     private static final int ADF = 16; //anime delay factor
     //
     private boolean setup = true;
-    Light light = new Light(100);
+    Light light = new Light(150);
     public Lantern(){
         setImage(anime[0]);
     }
@@ -28,14 +28,15 @@ public class Lantern extends Objex{
             World world = getWorld();
             world.addObject(light,getX(),getY());
         }
-        Physics();
         Anime();
         TIME = (TIME + 1) % (ADF * anime.length);
+        Physics();
     }
     
     
     private void Physics(){
         if(isTouching(Witch.class)){
+            Greenfoot.playSound("42.wav");
             World world = getWorld();
             int x = Greenfoot.getRandomNumber(1);
             if(x == 0) world.addObject(new Gem(),getX(),getY());

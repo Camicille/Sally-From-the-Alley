@@ -1,6 +1,6 @@
 #BlueJ class context
 comment0.target=Lantern
-comment0.text=\r\n\ class\ Lantern\:\ LIT\ object,\ random\ chance\ to\ do\ something\r\n\ \r\n\ @author\ Tyler\ Bakeman\r\n\ @version\ 1.01\ 11/20/18\r\n
+comment0.text=\r\n\ class\ Lantern\:\ LIT\ object,\ random\ chance\ to\ do\ something\r\n\ \r\n\ @author\ Tyler\ Bakeman\r\n\ @version\ 1.02\ 11/28/18\r\n
 comment1.params=
 comment1.target=Lantern()
 comment2.params=

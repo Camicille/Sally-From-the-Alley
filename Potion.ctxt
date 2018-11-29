@@ -1,6 +1,6 @@
 #BlueJ class context
 comment0.target=Potion
-comment0.text=\r\n\ class\ Potion\:\ Affects\ Player\ on\ Touch\r\n\ \r\n\ @author\ Tyler\ Bakeman\r\n\ @version\ 1.01\ 11/20/18\r\n
+comment0.text=\r\n\ class\ Potion\:\ Affects\ Player\ on\ Key\ Press\:\ inventory\r\n\ \r\n\ @author\ Tyler\ Bakeman\r\n\ @version\ 1.02\ 11/28/18\r\n
 comment1.params=
 comment1.target=Potion()
 comment2.params=
@@ -9,4 +9,8 @@ comment3.params=
 comment3.target=void\ Physics()
 comment4.params=
 comment4.target=void\ Anime()
-numComments=5
+comment5.params=
+comment5.target=void\ collision()
+comment6.params=
+comment6.target=void\ restore()
+numComments=7

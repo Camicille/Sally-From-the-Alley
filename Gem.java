@@ -3,7 +3,7 @@ import greenfoot.*;
  * class Gem: Adds to Score on Touch
  * 
  * @author Tyler Bakeman
- * @version 1.01 11/20/18
+ * @version 1.01 11/28/18
  **/
 public class Gem extends Objex{
     //object personal
@@ -22,14 +22,19 @@ public class Gem extends Objex{
         Physics();
         Anime();
         TIME = (TIME + 1) % (ADF * anime.length);
+        if(isTouching(Sprite.class)){
+            GameWorld world = (GameWorld)getWorld();
+            world.changeScore(15);
+            world.removeObject(this);
+        }
     }
     
     
     private void Physics(){
         int dy = 0;
-        Platform floor = (Platform)getOneObjectAtOffset(0,getImage().getHeight() + floatHeight,Platform.class);
+        Actor floor = getOneObjectAtOffset(0,getImage().getHeight() + floatHeight,null);
         if(floor == null)
-            gravity++;
+            gravity = 1;
         else
             gravity = 0;
         dy = (int)Math.pow(gravity,2);

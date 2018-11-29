@@ -35,11 +35,13 @@ Enemies: Philip Jepkes
    
 Objex: Tyler Bakeman
 -Objex:SuperClass of Objects
-   -Gem: Adds to Score on Touch
-   -Potion: Affects Player on Touch
-   -Lantern: LIT object, random chance to do something
-   -Fireball: LIT object that kills enemies (95%)
+   -Gem: Adds to Score on Touch (80%) --> dynamic implementation and rehearsal
+   -Potion: Held by the player (70%) --> was on contact, soon equiptable!
+   -Lantern: LIT object, random chance to do something (90%) --> more wildcards
+   -Fireball: LIT object that kills enemies (95%) --> implementing more variety
      --needs animation for being LIT
+Quo: Tyler Bakeman : helper class w/ description
+counter: Tyler Bakeman : helper class w/ description
 
 Main character's and superclasses for all game characters: Marlene Inoue
    -Sprite: superclasses of game character's that "walk" (70%)

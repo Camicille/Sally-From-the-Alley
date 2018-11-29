@@ -1,9 +1,16 @@
 #BlueJ class context
 comment0.target=IncQuo
-comment1.params=numer
-comment1.target=IncQuo(int)
-comment2.params=numer\ denom
-comment2.target=IncQuo(int,\ int)
-comment3.params=
-comment3.target=int\ poll()
-numComments=4
+comment0.text=\r\n\ class\ IncQuo\:\r\n\ -A\ Quotient;\ for\ denominator\ polls,\ return\ the\ value\ of\ the\ numerator,\r\n\ \ but\ distributed\ evenly\ among\ each\ poll\r\n\ \r\n\ @author\ Tyler\ Bakeman\r\n\ @version\ 1.02\ 11/28/18\r\n
+comment1.params=
+comment1.target=IncQuo()
+comment2.params=numer
+comment2.target=IncQuo(int)
+comment3.params=numer\ denom
+comment3.target=IncQuo(int,\ int)
+comment4.params=decimal
+comment4.target=IncQuo(double)
+comment5.params=decimal\ precision
+comment5.target=IncQuo(double,\ int)
+comment6.params=
+comment6.target=int\ poll()
+numComments=7
