@@ -9,7 +9,7 @@ public class Gem extends Objex{
     //object personal
     private static final String[] anime = {"Gem.png","Gem2.png"};
     private static final int floatHeight = 20;
-    private static polar floatRange = new polar(-5,5);
+    private static pivot floatRange = new pivot(-5,5);
     private static IncQuo floatSpeed = new IncQuo(1,12);
     //object dynamix
     private int TIME = 0;

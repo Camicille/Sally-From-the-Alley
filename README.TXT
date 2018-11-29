@@ -1,23 +1,21 @@
 PROJECT TITLE:  Sally from the Alley (Working title)
 PURPOSE OF PROJECT: Totally awesome platformer
-VERSION or DATE: Alpha 1.0 11/20/2018
+VERSION or DATE: Alpha 1.1 11/28/2018
 HOW TO START THIS PROJECT: Compile and run.
 AUTHORS: CCMTP
-USER INSTRUCTIONS:
-Place any character's in the world, the main character can move. Use
-"a" and "d" to move left and right
+USER INSTRUCTIONS: a,d to move left and right; f to fire; space to jump
+
 ==============================================================
+
 Subsystem Classes
 -----------------
 World and GameMaster mechanics:  Chandler Clarke
 -GameWorld:  The game world.
 -MainMenu:  The main menu.
--WorldLibrary:  A class that stores and gets world arrays.
 -GameMaster:  A superclass that holds all non interactive game objects.
     -EasterEgg:  An easter egg.
     -HealthCounter, PotionCounter, ScoreCounter:  Objects that display health, potions, and score.
 -Pause Menu:  A pause menu. (May or may not implement).
--World Portal:  A class that allows the player to change worlds.
 
 Platforms: Camille Otillio
 -Platform: A super class that informs how the platforms will behave and interact
@@ -39,8 +37,23 @@ Objex: Tyler Bakeman
    -Gem: Adds to Score on Touch
    -Potion: Affects Player on Touch
    -Lantern: LIT object, random chance to do something
+   -Fireball: LIT object that kills enemies (95%)
+     --needs animation for being LIT
 
 Main character's and superclasses for all game characters: Marlene Inoue
-   -Sprite: superclasses of game character's that "walk"
-   -Sally: user-controlled character
-   -Sebastian: the NPC that must be rescued
+   -Sprite: superclasses of game character's that "walk" (70%)
+     --might need to add more for movement
+   -Witch: user-controlled character (80%)
+     -- more images, dying code/state, dealing with Objex classes
+   -Cat: the NPC that must be rescued (90%)
+     -- change image when touch Witch, need more implementation when end game
+   -Fireball: LIT object that kills enemies (95%)
+     --needs animation for being LIT
+     
+Attributions
+==========================================================================
+1. Women images from Gothicvania Town, free at
+https://ansimuz.itch.io/gothicvania-town
+2. Werewolf images
+https://rvros/itch.io/pixel-monsters-2
+
