@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.target=Fireball
+comment0.text=\r\n\ A\ fireball\ that\ kills\ enemies\r\n\ \r\n\ @author\ Tyler\ Bakeman,\ Marlene\ Inoue\r\n\ @version\ 1.0\ 28\ November\ 2018\r\n
+comment1.params=speed
+comment1.target=Fireball(int)
+comment1.text=\r\n\ Constructor\ for\ Fireball\r\n\ \r\n\ @param\ speed\ \ the\ spped\ the\ fireball\ will\ fire\ at\r\n
+comment2.params=
+comment2.target=void\ collision()
+comment2.text=\r\n\ \r\n
+comment3.params=
+comment3.target=void\ move()
+comment4.params=
+comment4.target=void\ act()
+numComments=5
