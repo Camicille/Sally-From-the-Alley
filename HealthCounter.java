@@ -10,6 +10,18 @@ public class HealthCounter extends GameMaster
 {
     private EasterEgg easterEgg;
     private int timer;
+    private static GreenfootImage[] heartImages;
+    private GreenfootImage img1;
+    private GreenfootImage img2;
+    private int health = 7; //7 out of 10
+    private int i = 0;
+    
+    public HealthCounter(){
+        initializeImages();
+        img1 = heartImages[0];
+        img2 = heartImages[1];
+    }
+
     /**
      * Act - do whatever the HealthCounter wants to do. This method is called whenever
      * the 'Act' or 'Run' button gets pressed in the environment.
@@ -17,7 +29,28 @@ public class HealthCounter extends GameMaster
     public void act() 
     {
         easterEgg();
+        drawImages();
     }    
+
+    public void drawImages(){
+        if (i <= 50){
+            setImage(img1);
+        }
+        if (i > 50){
+            setImage(img2);
+        }
+        if (i > 100)
+            i = 0;
+        i++;
+    }
+
+    public void initializeImages(){
+        if (heartImages == null){
+            heartImages = new GreenfootImage[2];
+            heartImages[0] = new GreenfootImage("heart1.png");
+            heartImages[1] = new GreenfootImage("heart2.png");
+        }
+    }
 
     private void easterEgg(){
         if (isTouching(Witch.class) == true){

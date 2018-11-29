@@ -8,12 +8,23 @@ import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
  */
 public class ScoreCounter extends GameMaster
 {
+    private int score;
     /**
      * Act - do whatever the ScoreCounter wants to do. This method is called whenever
      * the 'Act' or 'Run' button gets pressed in the environment.
      */
     public void act() 
     {
-        // Add your action code here.
+        updateScore();
+        showScore();
     }    
+    
+    private void updateScore(){
+        GameWorld world = (GameWorld) getWorld();
+        score = world.getScore();
+    }
+    private void showScore(){
+        GameWorld world = (GameWorld) getWorld();
+        world.showText("Score" + score, world.player.getX()- 200, 20);
+    }
 }
