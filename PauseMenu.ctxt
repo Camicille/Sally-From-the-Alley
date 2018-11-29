@@ -1,7 +1,0 @@
-#BlueJ class context
-comment0.target=PauseMenu
-comment0.text=\r\n\ A\ superclass\ holding\ all\ pause\ menu\ Objects\r\n\ \r\n\ @author\ Chandler\ Clarke\r\n\ @version\ Alpha\ 1.0\r\n
-comment1.params=
-comment1.target=void\ act()
-comment1.text=\r\n\ Act\ -\ do\ whatever\ the\ PauseMenu\ wants\ to\ do.\ This\ method\ is\ called\ whenever\r\n\ the\ 'Act'\ or\ 'Run'\ button\ gets\ pressed\ in\ the\ environment.\r\n
-numComments=2
