@@ -160,7 +160,14 @@ public class GameWorld extends World{
     }
 
     public int getPlayerX(){
-        return player.getX();
+        List<Witch> witchesYall = getObjects(Witch.class);
+        if (witchesYall.size()>0){
+            return player.getX();
+        }
+        else
+        {
+            return 0;
+        }
     }
 
     private void initializeHealthArray(){
@@ -203,7 +210,7 @@ public class GameWorld extends World{
         for (Actor a : actors){
             if (a instanceof Witch){
                 // Allow smooth moving
-                Witch p = (Witch) a;
+                SmoothMover p = (Witch) a;
                 double moveX = p.getExactX() - dx;
                 p.setLocation(moveX, p.getY());
             }

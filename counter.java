@@ -1,4 +1,7 @@
-public class counter{
+/**
+ * A helper Class
+ * @author Tyler Bakeman
+ */public class counter{
     private int value;
     private int start;
     private int end;

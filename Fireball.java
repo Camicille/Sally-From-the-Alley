@@ -25,13 +25,13 @@ public class Fireball extends Objex{
      * 
      */
     public void collision(){
-        List<Enemy> e = getObjectsInRange(getImage().getWidth(), Enemy.class);
+        // List<Enemy> e = getObjectsInRange(getImage().getWidth(), Enemy.class);
         
-        for (Enemy enemy: e) {
-            if (e != null) {
-                getWorld().removeObject(enemy);
-            }
-        }
+        // for (Enemy enemy: e) {
+            // if (e != null) {
+                // getWorld().removeObject(enemy);
+            // }
+        // }
     }
     
     public void move(){
@@ -40,10 +40,10 @@ public class Fireball extends Objex{
     
     public void act(){
         move();
-        collision();
+        // collision();
         if(lifetime.poll() == 0){
-            World world = getWorld();
-            world.removeObject(this);
-        }
+             World world = getWorld();
+             world.removeObject(this);
+         }
     }
 }

@@ -1,4 +1,7 @@
-public class polar extends counter {
+/**
+ * A helper Class
+ * @author Tyler Bakeman
+ */public class polar extends counter {
     private int loop = 0;
     public polar(){
         super();

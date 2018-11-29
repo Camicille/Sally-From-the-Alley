@@ -1,5 +1,6 @@
 #BlueJ class context
 comment0.target=AbsQuo
+comment0.text=\r\n\ A\ helper\ Class\r\n\ @author\ Tyler\ Bakeman\r\n
 comment1.params=numer
 comment1.target=AbsQuo(int)
 comment2.params=numer\ denom

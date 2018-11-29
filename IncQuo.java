@@ -1,4 +1,7 @@
-public class IncQuo extends Quo{
+/**
+ * A helper Class
+ * @author Tyler Bakeman
+ */public class IncQuo extends Quo{
     private int count = 0;
     public IncQuo(int numer){
         super(numer);

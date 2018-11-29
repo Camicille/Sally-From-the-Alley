@@ -6,7 +6,7 @@ import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
  * @author Marlene Inoue & Ed Parrish
  * @version 1.1 19 November 2018
  */
-public abstract class Sprite extends Actor {
+public abstract class Sprite extends SmoothMover {
     private double x = 0, y = 0; //the x and y coordinates
     private double xVel;
     private double yVel; //pixels per act() call

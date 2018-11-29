@@ -23,7 +23,7 @@ public class Witch extends Sprite {
     private static final int RUN_COUNT = 6; //FIXME: NEED TO CHANGE AMOUNT OF IMAGEAS
     
     //time of fireball fire
-    private counter coolDown = new counter(50);
+    private counter coolDown = new counter(0,50,1);
     
     //checking whether facing left or right
     private int facing = 1;
@@ -182,7 +182,7 @@ public class Witch extends Sprite {
                 getWorld().addObject(new Fireball(5 * facing),
                                      getX()+facing*getImage().getWidth(),
                                      getY());
-                coolDown.reset();
+                coolDown.set(0);
             }
         }        
     }
@@ -214,11 +214,11 @@ public class Witch extends Sprite {
      */
     private void touchEnemies() {
         GameWorld world = (GameWorld) getWorld();
-        /**
+        
         if (world.getHealth() <= 0) {
             world.removeObject(this);
         }
-        */
+        
     }
 
     /**
@@ -238,11 +238,12 @@ public class Witch extends Sprite {
         keyPress();
         checkVertical();
         
-        touchEnemies();
+        
         touchCat();
 
         move();
         applyGravity();
-        coolDown.poll();            
+        coolDown.poll(); 
+        touchEnemies();
     }
 }

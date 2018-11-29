@@ -1,5 +1,6 @@
 #BlueJ class context
 comment0.target=Quo
+comment0.text=\r\n\ A\ helper\ Class\r\n\ @author\ Tyler\ Bakeman\r\n
 comment1.params=numer
 comment1.target=Quo(int)
 comment10.params=n\ d

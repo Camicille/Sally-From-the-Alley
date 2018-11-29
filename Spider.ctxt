@@ -1,9 +1,17 @@
 #BlueJ class context
 comment0.target=Spider
-comment0.text=\r\n\ Spider\:\ That\ will\ drop\ and\ wiggle\ \r\n\ To\ do\ fall\ from\ branch\ quickly\ then\ ascend\ slowly\ creating\ a\ string\r\n\ @author\ (Philip\ Jepkes)\ \r\n\ @version\ (V0)\r\n
-comment1.params=
-comment1.target=void\ act()
-comment1.text=\r\n\ Act\ -\ do\ whatever\ the\ Spider\ wants\ to\ do.\ This\ method\ is\ called\ whenever\r\n\ the\ 'Act'\ or\ 'Run'\ button\ gets\ pressed\ in\ the\ environment.\r\n
+comment0.text=\r\n\ Spider\:\ That\ will\ drop\ and\ wiggle\ \r\n\ To\ do\ fall\ from\ branch\ quickly\ then\ ascend\ slowly\ creating\ a\ string\r\n\ @author\ Philip\ Jepkes\r\n\ @version\ (V0)\r\n
+comment1.params=spawnLocationY\ travelDistance
+comment1.target=Spider(int,\ int)
 comment2.params=
-comment2.target=void\ movement()
-numComments=3
+comment2.target=Spider()
+comment3.params=
+comment3.target=void\ act()
+comment3.text=\r\n\ Act\ -\ do\ whatever\ the\ Spider\ wants\ to\ do.\ This\ method\ is\ called\ whenever\r\n\ the\ 'Act'\ or\ 'Run'\ button\ gets\ pressed\ in\ the\ environment.\r\n
+comment4.params=
+comment4.target=void\ movement()
+comment5.params=
+comment5.target=void\ intializeImages()
+comment6.params=
+comment6.target=void\ checkForSally()
+numComments=7

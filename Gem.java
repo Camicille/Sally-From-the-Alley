@@ -9,7 +9,7 @@ public class Gem extends Objex{
     //object personal
     private static final String[] anime = {"Gem.png","Gem2.png"};
     private static final int floatHeight = 20;
-    private static pivot floatRange = new pivot(-5,5);
+    //private static pivot floatRange = new pivot(-5,5);
     private static IncQuo floatSpeed = new IncQuo(1,12);
     //object dynamix
     private int TIME = 0;
@@ -42,7 +42,7 @@ public class Gem extends Objex{
         Float();
     }
     private void Float(){
-        if(floatSpeed.poll() == 1)
-            setLocation(getX(),getY() + floatRange.poll());
+        // if(floatSpeed.poll() == 1)
+            // setLocation(getX(),getY() + floatRange.poll());
     }
 }

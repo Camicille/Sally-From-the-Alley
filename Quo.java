@@ -1,4 +1,7 @@
-public class Quo{
+/**
+ * A helper Class
+ * @author Tyler Bakeman
+ */public class Quo{
     public int numer;
     public int denom;
     public Quo(int numer){

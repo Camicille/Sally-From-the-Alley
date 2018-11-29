@@ -9,7 +9,7 @@ public class Lantern extends Objex{
     //object personal
     private int floatHeight;
     private static final String[] anime = {"Lantern.png","Lantern2.png"};
-    private static pivot floatRange = new pivot(-10,10);
+    //private static pivot floatRange = new pivot(-10,10);
     private static IncQuo floatSpeed = new IncQuo(1,20);
     //object dynamix
     private int TIME = 0;
@@ -52,7 +52,7 @@ public class Lantern extends Objex{
         light.setLocation(getX(),getY());
     }
     private void Float(){
-        if(floatSpeed.poll() == 1)
-            setLocation(getX(),floatHeight + floatRange.poll());
+        //if(floatSpeed.poll() == 1)
+           // setLocation(getX(),floatHeight + floatRange.poll());
     }
 }
