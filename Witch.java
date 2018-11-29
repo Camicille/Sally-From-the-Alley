@@ -87,16 +87,15 @@ public class Witch extends Sprite {
         int lookY = 0;
         
         if (yVel > 0) {
-            lookY = (int) (yVel + GRAVITY + getHeight() / 2);
+            lookY = (int) (yVel + GRAVITY + getImage().getHeight() / 2);
         } else {
-            lookY = (int) (yVel + GRAVITY - getHeight() / 2);
+            lookY = (int) (yVel + GRAVITY - getImage().getHeight() / 2);
         }
         
         //check for vertical collision in this cycle
-        Actor actor = getOneObjectAtOffset(0, lookY, Platform.class);
+        Actor actor = getOneObjectAtOffset(0, lookY, Platforms.class);
         if (actor == null) {
             //no collision in this cycle
-            applyGravity();
             
             canJump = false;
         } else {
@@ -139,7 +138,7 @@ public class Witch extends Sprite {
         
         if (w == null || dx == 0) return;
         
-        //w.scrollHorizontal(dx);
+        w.scrollHorizontal(dx);
         setLocation(w.getWidth() / 2, getY()); // stay in horizontal center
     }
         
@@ -203,11 +202,10 @@ public class Witch extends Sprite {
      */
     public void applyGravity() {
         double yVelocity = getYVelocity() + GRAVITY;
-        
         if (yVelocity > MAX_VEL) {
             yVelocity = MAX_VEL;
         }
-        
+
         setYVelocity(yVelocity);
     }
 
@@ -244,7 +242,7 @@ public class Witch extends Sprite {
         touchCat();
 
         move();
-        
+        applyGravity();
         coolDown.poll();            
     }
 }

@@ -167,22 +167,27 @@ public class GameWorld extends World{
                 double moveX = p.getExactX() - dx;
                 p.setLocation(moveX, p.getY());
             }
-            else if (a instanceof Branches)
-            {
-                Branches c = (Branches) a;
-                // Allow smooth moving
-                double moveX = c.getExactX() - dx;
-                c.setLocation(c.getExactX() - dx, c.getExactY());
-                // Set endpoints
-                // int leftX = (int)Math.round(c.getLeftX() - dx);
-                //  int rightX = (int)Math.round(c.getRightX() - dx);
-                //c.setRangeX(leftX, rightX);
-            }
-            else{
+            else {
                 int moveX = (int) Math.round(a.getX() - dx);
                 a.setLocation(moveX, a.getY());
+            } 
+            //else if (a instanceof Branches)
+            // {
+                // Branches c = (Branches) a;
+                //
+                // Allow smooth moving
+                // double moveX = c.getExactX() - dx;
+                // c.setLocation(c.getExactX() - dx, c.getExactY());
+                // // Set endpoints
+                // // int leftX = (int)Math.round(c.getLeftX() - dx);
+                // //  int rightX = (int)Math.round(c.getRightX() - dx);
+                // //c.setRangeX(leftX, rightX);
             }
+            //else {
+           //     int moveX = (int) Math.round(a.getX() - dx);
+           //     a.setLocation(moveX, a.getY());
+           // }
 
         }
     }
-}
+
